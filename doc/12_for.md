@@ -18,46 +18,6 @@ for (初期化; 条件; 更新 ){
 &nbsp;
 
 
-### for文のサンプルコード
-
-```
-void setup(){
-  size(200,200);
-  background(255);
-  // 初期値-20、220未満まで、10ずつ増える
-  for(int i = -20; i < 220; i += 10){
-    // 変数iがラインの高さに代入される
-    line(0, i, 200, i + 20);
-  }
-}
-```
-![image](img/for_line01.png)
-
-&nbsp;
-
-### for文の組み合わせ
-
-```
-void setup(){
-  size(200,200);
-  background(255);
-  stroke(0);
-  
-  // 初期値-10、200未満まで、10ずつ増える
-  for(int i = -10; i < 200; i += 10){
-      line(i, 0, i+20, 100);
-  }
-  // 初期値10、220以下まで、10ずつ増える
-  for(int i = 10; i <= 220; i += 10){
-      line(i, 100, i-20, 200);
-  }
-}
-```
-
-![image](img/for_line02.png)
-&nbsp;
-
-
 
 ### for文を使ってグラーデーションを表現
 
@@ -105,6 +65,27 @@ void setup(){
 
 &nbsp;
 
+
+
+### for文とランダム
+
+```
+void setup(){
+  size(500,500);
+  background(255);
+  noFill();
+  stroke(0);
+  for(int i=0; i<200; i++){
+    line(random(0,width),random(0,height),random(0,width),random(0,height));
+  }
+}
+```
+
+![image](img/for_line06.png)
+
+&nbsp;
+
+
 ### forの入れ子
 
 
@@ -128,8 +109,71 @@ void setup(){
 
 ![image](img/for02.png)
 
+
 &nbsp;
 &nbsp;
+
+### forとインタラクティブ1
+
+```
+void setup(){
+    size(500,500);
+    background(255);
+    colorMode(HSB,360,100,100);
+}
+
+void draw(){
+  noStroke();
+    // 初期値0、10未満まで、1ずつ増える
+    for(int y=0; y < height; y+=20){
+      // 初期値0、10未満まで、1ずつ増える
+      for(int x=0; x < width; x+=20){
+        // fill(x*10, 10+ y*10, 100);
+        // int hue = (int) map(mouseX,0,width,0,36);
+        int hue = (int) map(mouseX,0,width,1,180);
+        int sat = (int) map(mouseY,0,height,100,10);
+        fill(hue + (x/4), sat + (y/4),100,100);
+        rect(x,y,100,100);
+      }
+    }
+}
+```
+
+![image](img/for05.png)
+
+
+&nbsp;
+&nbsp;
+
+### forとインタラクティブ2
+
+```
+void setup() {
+    size(500,500);
+    noStroke();
+    fill(0);
+    
+    //距離を測る
+    // float x = dist(0,0,50,50);
+    // println("x: "+x);
+}
+
+void draw() {
+    background(255);
+
+    for (int y = 0; y < width; y+=20) {
+        for (int x = 0; x< height; x+=20) {
+            //マウス座標とXY座標の距離を保存
+            float mouseDistance = dist(x,y,mouseX,mouseY);
+            ellipse(x, y, mouseDistance*0.1, mouseDistance*0.1);
+        }
+    }
+}
+
+```
+
+![image](img/for04.png)
+
 
 &nbsp;
 &nbsp;

@@ -14,5 +14,4 @@
 * [条件分岐](doc/08_if.md)
 * [インタラクション](doc/09_interaction.md)
 * [座標変換](doc/10_transform.md)
-* [関数](doc/11_function.md)
 * [for](doc/12_for.md)
