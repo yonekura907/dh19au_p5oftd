@@ -20,3 +20,5 @@
 * [画像](docs/14_image.md)
 * [イージング](docs/15_easing.md)
 * [Arduino](docs/16_arduino.md)
+* [Arduino / Processing](docs/18_arduino_processing.md)
+* [シンセサイザー](docs/19_synthesizer.md)
