@@ -432,8 +432,7 @@ void ofApp::draw(){
     ofDrawAxis(1000);
     gridHelper(1000,20);
     cam.end(); //カメラ終了
-    // 深度の調整
-    glDisable(GL_DEPTH_TEST);
+
 }
 
 //--------------------------------------------------------------
