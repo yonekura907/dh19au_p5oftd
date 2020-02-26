@@ -20,7 +20,7 @@
 * [GUI](docs/of/14_ofxGUI.md)
 * [球体](docs/of/13_sphere.md)
 * [OSC](docs/of/17_osc.md)
-* [FFT](docs/of/15_fft.md)
+* [FFT](docs/of/12_fft.md)
 
 &nbsp;
 
