@@ -1,6 +1,51 @@
 # DHW UIUXD 19.9月生
 
 
+## TouchDesigner
+
+### カリキュラム
+
+* [TouchDesignerについて](docs/td/01_Basic.md)
+* [解像度](docs/td/00_Resolution.md)
+* [Feedbackを使った残像表現](docs/td/00_Resolution.md)
+* [パラメーターリンク](docs/td/04_Referance.md)
+* [3D](docs/td/00_3D.md)
+* [OSC](docs/td/00_OSC.md)
+
+&nbsp;
+&nbsp;
+
+### Operator
+* [TOP](docs/td/02_TOP.md)
+* [CHOP](docs/td/03_CHOP.md)
+* [SOP](docs/td/05_SOP.md)
+* [MAT](docs/td/06_MAT.md)
+* [DAT](docs/td/07_DAT.md)
+* [COMP](docs/td/08_COMP.md)
+
+&nbsp;
+&nbsp;
+
+### 公式サイト
+* [DERIVATIVE](https://www.derivative.ca/)
+* [DERIVATIVE 公式Wiki](https://docs.derivative.ca/Main_Page)
+
+&nbsp;
+&nbsp;
+
+### 参考
+* [Visual Thinking with TouchDesigner　プロが選ぶリアルタイムレンダリング＆プロトタイピングの極意](https://www.amazon.co.jp/dp/B075L6DRBW)
+* [Matthew Ragan](https://www.youtube.com/channel/UCKAAKTI2xLNNBJRkdf8E58A)
+* [映像音響処理概説 2019](http://satoruhiga.com/TDWS2019/)
+* [Generative Design
+](http://www.derivative.ca/wiki088/index.php?title=Generative_Design)
+* [TouchDesigner in Asia](http://www.touchdesigner.co/)
+
+
+&nbsp;
+&nbsp;
+
+
 
 ## openFrameworks
 
@@ -37,25 +82,25 @@
 ## Processing
 
 
-* [インタラクティブ・デザイン概論](docs/00_interactive.md)
-* [Processingの設定](docs/01_basic.md)
-* [図形](docs/02_shape.md)
-* [カラー](docs/03_color.md)
-* [変数](docs/04_var.md)
-* [setupとdraw](docs/05_setupdraw.md)
-* [ランダムとノイズ](docs/06_randomnoise.md)
-* [計算](docs/07_math.md)
-* [条件分岐](docs/08_if.md)
-* [インタラクション](docs/09_interaction.md)
-* [座標変換](docs/10_transform.md)
-* [関数](docs/11_function.md)
-* [for](docs/12_for.md)
-* [配列](docs/13_array.md)
-* [画像](docs/14_image.md)
-* [イージング](docs/15_easing.md)
-* [Arduino](docs/16_arduino.md)
-* [Arduino / Processing](docs/18_arduino_processing.md)
-* [シンセサイザー](docs/19_synthesizer.md)
+* [インタラクティブ・デザイン概論](docs/processing/00_interactive.md)
+* [Processingの設定](docs/processing/01_basic.md)
+* [図形](docs/processing/02_shape.md)
+* [カラー](docs/processing/03_color.md)
+* [変数](docs/processing/04_var.md)
+* [setupとdraw](docs/processing/05_setupdraw.md)
+* [ランダムとノイズ](docs/processing/06_randomnoise.md)
+* [計算](docs/processing/07_math.md)
+* [条件分岐](docs/processing/08_if.md)
+* [インタラクション](docs/processing/09_interaction.md)
+* [座標変換](docs/processing/10_transform.md)
+* [関数](docs/processing/11_function.md)
+* [for](docs/processing/12_for.md)
+* [配列](docs/processing/13_array.md)
+* [画像](docs/processing/14_image.md)
+* [イージング](docs/processing/15_easing.md)
+* [Arduino](docs/processing/16_arduino.md)
+* [Arduino / Processing](docs/processing/18_arduino_processing.md)
+* [シンセサイザー](docs/processing/19_synthesizer.md)
 
 
 
